@@ -3,8 +3,17 @@ body {
     background-image: url("zoroegg.jpg");
     background-size: cover; 
     background-repeat: no-repeat; 
+    background-position: center center;
     text-align: center;
     height: 100vh;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center top; /* Adjust positioning for mobile */
+    }
 }
 
 
