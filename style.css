@@ -1,7 +1,6 @@
-
 body {
     background-image: url("zoroegg.jpg");
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
     text-align: center;
@@ -12,10 +11,9 @@ body {
 @media (max-width: 768px) {
     body {
         background-size: cover;
-        background-position: center top; /* Adjust positioning for mobile */
+        background-position: center top;
     }
 }
-
 
 h1 {
     display: inline-block;
@@ -27,7 +25,6 @@ h1 {
     text-align: center;
 }
 
-
 .container {
     display: flex;
     justify-content: space-around; 
@@ -35,68 +32,20 @@ h1 {
     flex-wrap: wrap;
 }
 
-
-.box1 {
+.box1, .box2, .box3, .box4, .box5 {
     width: 100px;
     height: 100px;
-    background-color: red;
     display: flex;
     justify-content: center; 
     align-items: center; 
     border: 2px solid black; 
     font-size: 16px; 
     text-align: center; 
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
-
-
-.box2 {
-
-
-    width: 100px;
-    height: 100px;
-    background-color: lightblue; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid black; /
-}
-
-
-
-
-.box3 {    width: 100px;
-    height: 100px;
-    background-color: green; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid black; /
-   } 
-
-
-
-.box4 {
-    width: 100px;
-    height: 100px;
-    background-color: grey; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid black; /
-   
-}
-
-
-.box5{
-
-    width: 100px;
-    height: 100px;
-    background-color: purple; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border: 2px solid black; /
-   
-}
+.box1 { background-color: red; }
+.box2 { background-color: lightblue; }
+.box3 { background-color: green; }
+.box4 { background-color: grey; }
+.box5 { background-color: purple; }
